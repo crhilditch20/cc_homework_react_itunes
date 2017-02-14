@@ -9,6 +9,7 @@ var SongList = function(props) {
      <li value={index} key={song["im:name"].label}>No.{index+1}</li>
     <li value={index} key={index}>Title:{song["im:name"].label}</li>
     <li value={index} key={song.title.label}>Artist:{song["im:artist"].label}</li>
+    <img src={song["im:image"][2].label}></img>
     </ul>
       );
 
