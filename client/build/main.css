@@ -1,5 +1,11 @@
 body{
   font-family: Verdana;
+  background-color: #F0F8FF;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+h1 {
+  color: DarkViolet;
 }
 
 .counter-box, .comment-box{
